@@ -1,0 +1,8 @@
+flask
+pillow
+requests
+pandas
+scikit-learn
+torch
+torchvision
+opencv-python

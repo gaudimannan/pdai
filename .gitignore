@@ -1,0 +1,34 @@
+# Python environment and cache
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local datasets, trained model artifacts, and archives
+data/
+*.pth
+*.pkl
+*.zip
+
+# Generated or old frontend artifacts
+frontend_backup_*/
+stitch/
+templates/
+
+# Frontend dependencies and build output
+node_modules/
+pdai-frontend/node_modules/
+pdai-frontend/dist/
+pdai-frontend/vite-dev*.log
+
+# Local environment files
+.env
+*.local
+
+# Local/generated image assets
+LOGO.png
+Color Hunt Palette*.png
+
+# Local scratch/debug files
+test/
+debug_*.py
