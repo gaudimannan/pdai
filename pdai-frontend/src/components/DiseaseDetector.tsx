@@ -130,7 +130,7 @@ export default function DiseaseDetector({ uploadSignal }: { uploadSignal: number
           </h1>
           <div className="hero-rule" aria-hidden="true" />
           <p>
-            Upload a leaf photograph. Our model — trained on 87,000 images across 38 disease classes —
+            Upload a leaf photograph. Our model — trained on 20,638 images across 15 plant-health classes —
             returns a diagnosis in under two seconds.
           </p>
           <button className="neo-button green-button hero-cta" type="button" onClick={() => uploadRef.current?.click()}>
@@ -214,9 +214,9 @@ export default function DiseaseDetector({ uploadSignal }: { uploadSignal: number
 
       <WindowPanel title="MODEL.STATS" className="stats-panel">
         <div className="stats-grid">
-          <StatBlock value="87,900" label="TRAINING IMAGES" />
-          <StatBlock value="38" label="DISEASE CLASSES" />
-          <StatBlock value="14" label="PLANT SPECIES" />
+          <StatBlock value="20,638" label="TRAINING IMAGES" />
+          <StatBlock value="15" label="MODEL CLASSES" />
+          <StatBlock value="3" label="PLANT TYPES" />
         </div>
       </WindowPanel>
     </div>
