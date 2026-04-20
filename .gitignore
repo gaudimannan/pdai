@@ -6,8 +6,6 @@ __pycache__/
 
 # Local datasets, trained model artifacts, and archives
 data/
-*.pth
-*.pkl
 *.zip
 
 # Generated or old frontend artifacts
